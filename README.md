@@ -1,7 +1,7 @@
-# Desafio Nginx com Node.js
+# Desafio GO
 
-Quando um usuário acessar o nginx, o mesmo fará uma chamada a aplicação node.js. Essa aplicação por sua vez adicionará um registro no banco de dados mysql, cadastrando um nome na tabela people.
+Criar uma aplicação em GO que demonstre "Full Cycle Rocks!", deve ter um tamanho < 2 Mb.
 
-O retorno da aplicação node.js para o nginx deverá ser:
+Para baixar a imagem:
 
-<h1>Full Cycle Rocks!</h1>
+docker push victorferreira95/golang:scratch
